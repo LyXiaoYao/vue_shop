@@ -29,7 +29,8 @@ import {
     Tag,
     Tree,
     Select,
-    Option
+    Option,
+    Cascader
 } from 'element-ui'
 Vue.use(Button)
 Vue.use(Form)
@@ -57,6 +58,8 @@ Vue.use(Tag)
 Vue.use(Tree)
 Vue.use(Select)
 Vue.use(Option)
-    //把弹框组件挂在到Vue实例对象上
+Vue.use(Cascader)
+
+//把弹框组件挂在到Vue实例对象上
 Vue.prototype.$message = Message
 Vue.prototype.$confirm = MessageBox.confirm
